@@ -1,0 +1,13 @@
+.stats {
+  display: flex;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(231, 245, 245);
+  border-left: 1px solid rgb(191, 211, 211);
+  border-bottom: 2px solid rgb(191, 211, 211);
+}
+
+.firstChild {
+  background-color: grey;
+}

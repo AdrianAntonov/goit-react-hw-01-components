@@ -1,0 +1,26 @@
+.description {
+  padding: 5px 15px 5px 5px;
+  border: 2px solid rgb(191, 211, 211);
+}
+
+.avatar {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.tag,
+.location {
+  color: rgb(163, 163, 163);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}

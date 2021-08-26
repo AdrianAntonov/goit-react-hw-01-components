@@ -1,0 +1,7 @@
+.profile {
+  width: 250px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(245, 244, 244);
+  box-shadow: 5px 5px 20px rgb(177, 175, 175);
+}

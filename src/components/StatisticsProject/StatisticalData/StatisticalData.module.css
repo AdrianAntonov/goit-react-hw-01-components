@@ -1,0 +1,21 @@
+.data {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dataItem {
+  padding: 5px;
+  text-align: center;
+}
+
+.spanItem {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ddd;
+}
+.first {
+  font-size: 14px;
+}

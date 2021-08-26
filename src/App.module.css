@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(237, 248, 248);
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+
+.app {
+  margin-top: 1rem;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
