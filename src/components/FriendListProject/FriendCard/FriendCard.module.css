@@ -1,4 +1,4 @@
-.item {
+.card {
   margin-bottom: 10px;
   position: relative;
   list-style: none;
@@ -28,7 +28,4 @@
 .avatar,
 .name {
   margin: 0px 10px 0px 5px;
-}
-
-.name {
 }

@@ -1,25 +1,25 @@
-import React from "react";
-import style from "./FriendCard.module.css";
+import React from 'react';
+import style from './FriendCard.module.css';
 
-const FriendCard = (props) => {
+const FriendCard = props => {
   return (
-    <div className={style.card}>
-      {props.friends.map((item) => (
-        <li key={item.id} className={style.item}>
+    <div>
+      {
+        <li key={props.id} className={style.card}>
           <span
             className={
-              item.isOnline === true ? style.statusOn : style.statusOff
+              props.isOnline === true ? style.statusOn : style.statusOff
             }
           />
           <img
             className={style.avatar}
-            src={item.avatar}
+            src={props.avatar}
             alt="avatar"
             width="48"
           />
-          <p className={style.name}>{item.name}</p>
+          <p className={style.name}>{props.name}</p>
         </li>
-      ))}
+      }
     </div>
   );
 };

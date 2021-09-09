@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import stats from "../statistical-data.json";
-import StatisticalData from "../StatisticalData/StatisticalData";
-import Title from "../Title/Title";
-import style from "./Statistics.module.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import stats from '../statistical-data.json';
+import StatisticalData from '../StatisticalData/StatisticalData';
+import Title from '../Title/Title';
+import style from './Statistics.module.css';
 
 function Statistics() {
   return (
